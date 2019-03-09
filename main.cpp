@@ -76,12 +76,6 @@ void Contains(Node* head,int ckey){
       return;
     }
   }
-//  if(current->key_ > key){
-//    current->mutex_.unlock();
-//    prev->mutex_.unlock();
-//    printf("NOT FOUND1!\n");
-//    return;
-//  }
   printf("NOT FOUND!\n");
   return;
 
