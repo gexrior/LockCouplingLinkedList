@@ -81,7 +81,7 @@ int main(){
 //  //test for RemoveThreads
 //  vector<thread> RemoveThreads;
 //  for(int i = 0; i < 1000; i = i + 2){
-//    RemoveThreads.emplace_back(Remove, head, i);
+//    RemoveThreads.emplace_back(Remove, head, i+1);
 //  }
 //  for (auto& thread : RemoveThreads) {
 //    thread.join();
@@ -101,7 +101,7 @@ int main(){
   vector<thread> RAThreads;
   for(int i = 0; i < 1000; i = i + 2){
     auto node2 = new Node(i+1,i+100);
-    RAThreads.emplace_back(RATest,head,node2,i+1);
+    RAThreads.emplace_back(RATest,head,node2,i);
   }
   for (auto& thread2 : RAThreads) {
     thread2.join();
