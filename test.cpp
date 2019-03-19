@@ -81,7 +81,7 @@ int main(){
 //  //test for RemoveThreads
 //  vector<thread> RemoveThreads;
 //  for(int i = 0; i < 1000; i = i + 2){
-//    RemoveThreads.emplace_back(Remove, head, i+1);
+//    RemoveThreads.emplace_back(Remove, head, i);
 //  }
 //  for (auto& thread : RemoveThreads) {
 //    thread.join();
