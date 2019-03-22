@@ -168,7 +168,7 @@ int main(){
 
 //  //test for Add + Remove Thread
 //  vector<thread> ARThreads;
-//  for(int i = 0; i < 1000; i = i + 2){
+//  for(int i = 1000; i < 2000; i = i ++){
 //    auto node1 = new Node(i+1,i+100);
 //    ARThreads.emplace_back(ARTest,head,node1,i);
 //  }
@@ -178,7 +178,7 @@ int main(){
 
   //test for Remove + Add Thread
 //  vector<thread> RAThreads;
-//  for(int i = 0; i < 1000; i = i + 2){
+//  for(int i = 1000; i < 2000; i = i + 2){
 //    auto node2 = new Node(i+1,i+100);
 //    RAThreads.emplace_back(RATest,head,node2,i);
 //  }
